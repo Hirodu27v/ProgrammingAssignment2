@@ -17,15 +17,15 @@ makeCacheMatrix <- function(x = matrix()) {
         ## Set the inverse of the matrix
         setInverse <- function(inverse) {
             i <<- inverse
-       }
-       ## Get the inverse of the matrix
+        }
+        ## Get the inverse of the matrix
         getInverse <- function() {
             i
-       }
-       ## then,return a list of the methods
+        }
+        ## then,return a list of the methods
         list(set = set, get = get,
-         setInverse = setInverse,
-         getInverse = getInverse)
+        setInverse = setInverse,
+        getInverse = getInverse)
 
 }
 
